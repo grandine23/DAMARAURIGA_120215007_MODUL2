@@ -1,0 +1,16 @@
+<resources>
+
+
+    <string-array name="tables_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+    </string-array>
+
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="app_name">RIGA RESTO</string>
+
+</resources>

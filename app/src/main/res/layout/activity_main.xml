@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.androidhehe.riga.damarauriga_1202150007_modul2.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Pilih Menu"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <RadioButton
+            android:id="@+id/Dinein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dine in"/>
+        <RadioButton
+            android:id="@+id/TakeAway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Away"/>
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/buttonPesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorAccent"
+        android:onClick="onClickOrder"
+        android:text="PESAN SEKARANG"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>
